@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
-  return <h1>1</h1>;
+  return <></>;
 };
 
 export default Home;
