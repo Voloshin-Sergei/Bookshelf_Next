@@ -6,7 +6,7 @@ import { Tag } from '../Tag';
 import { PencilIcon } from '@heroicons/react/solid';
 import { TrashIcon } from '@heroicons/react/solid';
 
-interface BookItemProps {
+export interface BookItemProps {
   id: number;
   cover: string;
   title: string;
