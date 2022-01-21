@@ -18,7 +18,7 @@ export const Rating: FC<RatingProps> = ({ rate }) => {
   };
 
   return (
-    <div className="flex items-center py-2">
+    <div className="inline-flex items-center py-2">
       {[...Array(5)].map((star, index) => {
         index += 1;
         return (
